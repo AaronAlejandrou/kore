@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Minimalist Premium SaaS Palette - Updated to Turquoise Mint */
+  --background: 210 20% 98%; 
+  --foreground: 224 71% 4%;
+
+  /* Primary: Turquoise Mint (matching logo) #8FDFD5 */
+  --primary: 174 62% 71%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary: Neutral Gray */
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+
+  /* Muted: Subtle text */
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+
+  /* Accent: Turquoise Mint subtle */
+  --accent: 174 62% 71%;
+  --accent-foreground: 222 47% 11%;
+
+  /* Borders & Dividers */
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 174 62% 71%;
+
+  /* Destructive */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Card backgrounds */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  /* Typography */
+  --font-display: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  --radius: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/10 selection:text-primary;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight font-semibold text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl shadow-black/5;
+  }
+
+  .grid-pattern {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  }
+}

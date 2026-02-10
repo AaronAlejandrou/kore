@@ -1,0 +1,111 @@
+Actúa como un Senior Product Designer (SaaS) + Front-end Engineer experto en UI minimalista premium.
+Necesito que construyas desde cero una landing page ultra minimalista y extremadamente profesional para Kore, un ERP modular (multi-industria, principalmente retail).
+La propuesta es GRATIS al inicio (early access) y se presenta como un proyecto en mejora continua que busca aprender de usuarios reales para evolucionar.
+
+Objetivo de la landing
+
+Captar registros para early access y solicitudes de demo, destacando: control operativo, orden, visibilidad en tiempo real, modularidad y seguridad.
+
+Estilo visual obligatorio (muy importante)
+
+Ultra minimalista tipo SaaS premium (estilo sobrio, elegante, “enterprise”).
+
+Mucho espacio en blanco, jerarquía tipográfica impecable, sin elementos decorativos innecesarios.
+
+Nada de gradientes fuertes, nada de ilustraciones caricaturescas, nada de “hype”.
+
+Microinteracciones sutiles (hover/focus), transiciones suaves.
+
+Accesibilidad cuidada (contrastes, focus states, labels).
+
+Paleta
+
+Fondo: #FAFAF9 y/o #F9FAFB
+
+Texto principal: #111827
+
+Texto secundario: #6B7280
+
+Bordes: #E7E5E4 / border-gray-200
+
+Color primario CTA: azul (blue-600) con hover (blue-700)
+
+Acento mínimo: cyan-500 solo para highlights o links (muy moderado)
+
+Tipografía
+
+ui-sans-serif / system-ui (“Segoe UI” etc.).
+
+Peso y tamaños con jerarquía clara; apariencia “product UI”.
+
+Estructura (secciones exactas)
+
+Navbar sticky: Logo + links (Módulos, Diferenciales, Integraciones, FAQ) + CTA “Early Access”.
+
+Hero:
+
+H1 sobrio: “ERP modular para operar con orden y claridad.”
+
+Subtítulo: multi-industria, principalmente retail; inventario, ventas, sucursales, reportes.
+
+Badges discretos: “Early Access Gratis”, “En mejora continua”, “Feedback-driven”.
+
+CTAs: “Unirme al Early Access” (principal) y “Solicitar demo” (secundario).
+
+Mockup minimalista del dashboard (puede ser un componente UI simulado, sin imágenes externas).
+
+Problema → Resultado: 3 problemas comunes y cómo el ERP los resuelve (en texto breve).
+
+Módulos (8 cards, super limpias): Inventario, POS/Ventas, Sucursales y roles, Clientes/CRM, Proveedores, Reportes/KPIs, Integraciones/API, Notificaciones.
+
+Diferenciales (en formato lista premium, sin exagerar): modular, seguridad roles/permisos, escalable, analítica, personalización, soporte.
+
+Modo “Gratis al inicio”: explicar con seriedad el porqué: “piloto”, “aprendizaje”, “iteración”, “comunidad”, “roadmap transparente”.
+
+Proceso (3 pasos): registro → configuración → uso + feedback.
+
+FAQ (8 preguntas) orientadas a retail y multi-industria; incluye una sobre “¿Qué pasa cuando deje de ser gratis?” (responder con transparencia).
+
+CTA final: repetir “Early Access Gratis” con formulario.
+
+Footer: contacto, redes (opcionales), privacidad, términos.
+
+Copys: tono obligatorio
+
+Profesional, neutro, seguro.
+
+Evitar frases tipo “revoluciona tu negocio”.
+
+Preferir “claridad”, “control”, “operación”, “trazabilidad”, “visibilidad”, “mejora continua”.
+
+Funcionalidad mínima
+
+Formulario Early Access con campos: nombre, negocio, rubro (select), email, WhatsApp, número de sucursales (opcional), comentario (opcional).
+
+Validación básica, estados de éxito/error, UI limpia.
+
+Botón “WhatsApp” opcional, discreto.
+
+Entregable técnico
+
+Genera el proyecto listo para correr con React + Vite + Tailwind (o Next.js si prefieres, pero elige uno y mantén consistencia).
+
+Un solo page (single page) con secciones ancladas.
+
+Componentes bien organizados, limpios, sin dependencias innecesarias.
+
+SEO básico: title, meta description, headings correctos.
+
+Performance: sin imágenes pesadas ni librerías extra.
+
+Produce únicamente:
+
+Estructura de carpetas
+
+Código completo de los componentes
+
+CSS/Tailwind config si aplica
+
+Instrucciones para correr (npm install, npm run dev)
+
+“No uses iconos llamativos. Si usas iconos, que sean monocromos y mínimos. Prioriza tipografía, grillas y whitespace.”

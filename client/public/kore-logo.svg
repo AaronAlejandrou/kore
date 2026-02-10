@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true">
+  <defs>
+    <linearGradient id="koreMintGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A8EFE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8FDFD5;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="koreNavyGradient" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#123B62;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0C213E;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.8; }
+    }
+    .kore-arc {
+      transform-origin: 49.164px 49.913px;
+      animation: rotate 20s linear infinite;
+      filter: url(#glow);
+    }
+    .kore-core {
+      animation: pulse 3s ease-in-out infinite;
+    }
+  </style>
+  <path class="kore-arc"
+    d="M 92.508 50.669 A 43.351 43.351 0 1 0 49.164 93.264"
+    fill="none" 
+    stroke="url(#koreMintGradient)" 
+    stroke-width="11.543" 
+    stroke-linecap="round" />
+  <circle class="kore-core" 
+    cx="49.164" 
+    cy="49.913" 
+    r="25.133" 
+    fill="url(#koreNavyGradient)" />
+</svg>
